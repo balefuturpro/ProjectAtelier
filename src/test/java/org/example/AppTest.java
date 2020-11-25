@@ -46,6 +46,18 @@ public class AppTest
         calculator.multiply(2,2);
     }
     @Test
+    public void TestMin() {
+        Calculator calculator = new Calculator();
+        calculator.min(2,3);
+        System.out.println(calculator.min(5,4));
+    }
+    @Test
+    public void TestMax() {
+        Calculator calculator = new Calculator();
+        calculator.max(2,3);
+        System.out.println(calculator.max(5,4));
+    }
+    @Test
     public  void TestMaxElement() {
         Calculator calculator = new Calculator();
         int Tab[] = { 4,10,9,30,20,41,50};
